@@ -35,7 +35,25 @@ while (svar == 0):
 
 
 
-
+    #liður3
+    if val == 3:
+        hastafir = 0
+        lagstafir = 0
+        lagstafirha = 0
+        texti = input("sláðu inn texta")
+        for x in range(len(texti)):
+            if (texti[x].isalpha() and texti [x].isupper()):
+                hastafir +=1    #hastafir = hastafir + 1
+                if x != len(texti)-1:
+                    if (texti[x +1]. islower()):
+                        lagstafirha +=1
+            if (texti[x]. isalpha() and texti[x]. islower()):
+                lagstafir +=1
+        print(texti)
+        print ("það eru svonna margir hástafir", hastafir)
+        print ("það eru svona margir lágstafir", lagstafir)
+        print ("svonar margir lágstafir komma efir hástaf", lagstafirha)
+        print ("liður 3 er búinn")
 
 
 
