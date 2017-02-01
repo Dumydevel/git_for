@@ -1,7 +1,7 @@
 #github verkefni
 #kaj arnar jörgensen
 #27.1.17
-
+## comment
 
 svar = 0
 while (svar == 0):
